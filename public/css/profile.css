@@ -1,0 +1,224 @@
+.white-canvas{
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+  margin-top: 25px;    
+  padding: 15px;
+}
+
+.profile__page {
+  position: relative;
+}
+
+.profile__page .banner,
+.trends__page .banner {
+  position: absolute;
+  left: 0;
+}
+
+.contact__container {
+  position: relative;
+  display: flex;
+}
+
+.contact__main {
+  width: 75%;
+}
+
+.contact__main p {
+  font-size: 0.8rem;
+  color: #222;
+}
+
+.cotact__main__heading {
+  font-size: 1rem;
+}
+
+.contact__card__container {
+  width: 25%;
+}
+
+.contact__card {
+  background-color: #f5f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact__card__image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.contact__card__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact__card__name {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.contact__card__specialities {
+  color: #000;
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.contact__card__phone {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 0.7rem;
+  
+}
+
+.contact__card__email {
+  color: #555;
+  font-size: 0.7rem;
+}
+
+.contact__link {
+  border: 1px solid rgb(121,189,97);
+  margin-top: 5px;
+  display: flex;
+}
+
+.contact__link__icon {
+  color: #fff;
+  background-color:  rgb(121,189,97);
+  padding: 10px;
+  width: 15%;
+}
+
+.contact__link__text {
+  padding-left: 10px;
+  color: #999;
+  align-items: center;
+  display: flex;
+}
+
+
+.cards__type__1 .card__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__type__1 .card__form .custom-input{
+  width: 49%;
+}
+
+.cards__type__1 .card__form .custom-select {
+  border-radius: 0;
+  padding: 12px;
+  width: 15%;
+  height: 100%;
+}
+
+.cards__type__1 .card__form .button-green {
+  border-radius: 0;
+  padding: 12px;
+  width: 20%;
+}
+
+.cards__lagends {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+  min-height: 50px;
+  align-items: center;
+}
+
+.cards__lagends > div {
+  margin-left: 15px;
+}
+
+.lagend__green:before {
+  margin-right: 5px;
+  background-color: rgb(121,189,97);
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.lagend__yellow:before {
+  margin-right: 5px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.lagend__red:before {
+  margin-right: 5px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+
+
+
+/* trends page */
+
+.trends__page {
+  position: relative;
+}
+
+.trends__page .trends__main__heading {
+  font-size: 1.5rem;
+}
+
+.cards__type__2__pagination {
+  display: flex;
+  justify-content: center;
+  min-height: 30px;
+  align-items: center;
+}
+
+.pagination__direction {
+  color: #444;
+  margin: 0 7px;
+}
+.pagination__direction.deactivate {
+  color: #ddd;
+  pointer-events: none;
+}
+
+.pagination__items {
+  display: flex;
+  margin: 0;
+}
+
+.pagination__items > li > a{
+  border-radius: 50%;
+  border: 1px solid #999;
+  color: #222;
+  padding: 0 6px;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.pagination__item__active > a{
+  background-color: rgb(121,189,97);
+  color: #fff !important;
+}
+
+.pagination__items > li a:hover {
+  text-decoration: none;
+}
+
+.pagination__item__active {
+
+}
